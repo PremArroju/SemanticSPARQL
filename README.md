@@ -2,6 +2,7 @@
 Steps:
 
 Download warfile from github.
+Upload the Warfile to the tomcat
 Go to the bin folder of the server dir in cmd/terminal in tomcat folder and run below commands:
 startup.bat (windows)
 Once the server starts, open http:localhost:8080 from browser.
