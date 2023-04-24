@@ -1,0 +1,125 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+}
+
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	height: 100px;
+}
+
+
+textarea {
+	width: 100%;
+	padding: 40px 20px;
+	font-family: arial;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	height: 300px;
+}
+
+
+input[type=submit] {
+	background-color: #FFFFFF;
+	float: center;
+	border: 1px solid black;
+	color: black;
+	padding: 15px 20px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+html, body {
+	height: 100%;
+}
+
+.header {
+	margin: 0 auto;
+	width: 85%; 
+	box-align: center;
+	top: 0px;
+	background-color: white;
+	color: #000000;
+	padding: 10px;
+	padding-bottom: 70px;
+	
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    width: 750px;
+    height: 140px;
+    position: relative;
+}
+
+.multicolor-blink {
+	animation: blinker 1s linear infinite;
+	color: red;
+}
+
+@keyframes blinker {
+	0% {
+		color: red;
+	}
+	25% {
+		color: blue;
+	}
+	50% {
+		color: green;
+	}
+	75% {
+		color: violet;
+	}
+	100% {
+		color: rgb(0, 255, 72);
+	}
+}
+
+.button {
+	background-color: #FFFFFF;
+	float: center;
+	border: 1px solid black;
+	color: black;
+	padding: 15px 20px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.table {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 1rem;
+	color: #212529;
+	background-color: white;
+}
+
+.table th, .table td {
+	padding: 0.75rem;
+	vertical-align: top;
+	border-top: 0px solid #dee2e6;
+}
+
+.table-bordered {
+	border: 1px solid #dee2e6;
+}
+  
+h1 {
+	text-align: center;
+}
+
